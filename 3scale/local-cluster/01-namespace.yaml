@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: redhat-3scale-operator # Using a common namespace for 3scale, adjust if needed

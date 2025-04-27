@@ -1,0 +1,12 @@
+apiVersion: operators.coreos.com/v1alpha1
+kind: Subscription
+metadata:
+  name: 3scale-operator
+  namespace: redhat-3scale-operator # Must match the namespace created earlier
+spec:
+  channel: threescale-2.14 # From the user provided image
+  installPlanApproval: Automatic
+  name: 3scale-operator
+  source: redhat-operators
+  sourceNamespace: openshift-marketplace
+  startingCSV: 3scale-operator.v0.11.13 # Optional: Specify exact version from image, adjust if needed based on channel availability

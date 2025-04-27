@@ -1,0 +1,10 @@
+resources:
+- ingress
+- logging
+- monitoring
+- oauth
+- registry
+- storage
+- ocp-gitops
+- certificates
+- 3scale
