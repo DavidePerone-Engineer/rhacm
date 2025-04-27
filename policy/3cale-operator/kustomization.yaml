@@ -1,3 +1,0 @@
-generators:
-  - local-cluster-policyGenerator.yaml
-  - all-cluster-policyGenerator.yaml
