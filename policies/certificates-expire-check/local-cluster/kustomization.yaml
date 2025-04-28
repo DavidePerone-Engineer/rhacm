@@ -1,0 +1,7 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+
+#policy for the cluster rhacm and placementbinding to attach policy on managed cluster   dap-ipi01
+- placement-binding.yaml
+- certificate-expiration-alert-policy.yaml
