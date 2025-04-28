@@ -10,7 +10,7 @@ policyDefaults:
   remediationAction: enforce
   severity: medium
   placement:
-    placementName: rhacm-placement # Assuming the same placement as ingress/logging/monitoring
+    placementName: rhacm-placement #placement created where is defined the rhacm cluster
 policies:
   - name: 3scale-configuration-policy-local-cluster
     manifests:
